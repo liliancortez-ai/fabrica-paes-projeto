@@ -1,5 +1,7 @@
 # Fábrica de Pães — Engenharia da Informação
 
+**Dashboard online:**
+
 [![Testes](https://img.shields.io/badge/testes-unittest-blue)](#testes)
 
 Projeto **executável e versionado** baseado no trabalho *Projeto Final — Modelagem
@@ -125,23 +127,6 @@ na carga, filtros BI, migrações repetidas, comportamento da CLI e exportação
 As suítes utilizam bancos isolados em memória/temporários e não alteram a
 base que você inicializou para experimentar.
 
-## Versionamento
-
-O ZIP inclui a pasta `.git`, isto é, **histórico Git real**, não somente
-arquivos de texto sobre versões. Para consultar:
-
-```bash
-git log --oneline --decorate
-git tag --list
-git show v0.1.0
-git show v1.0.0
-```
-
-As versões seguem **SemVer** (`MAJOR.MINOR.PATCH`) e o estado de cada banco
-é controlado, separadamente, por migrações `0001_...sql`, `0002_...sql`.
-Os scripts já aplicados têm seu SHA-256 registrado, e mudanças posteriores
-nesses scripts causam erro intencional. Leia [docs/versioning.md](docs/versioning.md).
-
 ## Organização dos dados e do MySQL
 
 O SQLite gerado **não é enviado ao Git** (veja `.gitignore`). Isso mantém o
@@ -149,14 +134,3 @@ repositório reproduzível: versão-se código, scripts de migração e entradas
 CSV, não o estado mutável de cada instalação. Em MySQL, use
 `sql/mysql/0001_initial.sql` e depois `sql/mysql/0002_indexes.sql` no cliente
 SQL; o dashboard e a CLI atuais executam **somente em SQLite**.
-
-O script SQL mostrado no PDF apresenta campos sem tipo ou largura e por isso
-não pode ser executado literalmente em alguns SGBDs. Os scripts desta entrega
-explicitam tipos e restrições, preservando a estrutura de quatro tabelas.
-
-## Licenciamento e proveniência
-
-Implementação nova criada a partir da **descrição, modelagem e imagens** do PDF,
-sem pressupor acesso aos arquivos-fonte originais. Não é uma edição de um
-repositório preexistente. Consulte o responsável pelo projeto antes de
-publicar ou reutilizar conteúdos acadêmicos de terceiros.
