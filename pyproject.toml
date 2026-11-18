@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabrica-paes-ufop"
+dynamic = ["version"]
+description = "Modelo relacional e dashboard didático para gestão de receitas de fábrica de pães"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Uso acadêmico; consulte o responsável pelo projeto para redistribuição."}
+authors = [{name = "Projeto acadêmico de Engenharia da Informação"}]
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Database",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.35,<2"]
+
+[project.scripts]
+fabrica-paes = "fabrica_paes.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fabrica_paes = [
+    "resources/migrations/sqlite/*.sql",
+    "resources/seed/*.csv",
+    "resources/dashboard/*.html",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "fabrica_paes.__version__"}

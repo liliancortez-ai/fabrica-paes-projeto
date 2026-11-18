@@ -1,0 +1,46 @@
+﻿pao;categoria;ingrediente;quantidade;unidade_medida
+Baguete;Tradicional;Farinha de Trigo;0.3;kg
+Baguete;Tradicional;Fermento Biológico;20;g
+Baguete;Tradicional;Sal;10;g
+Baguete;Tradicional;Água;0.18;L
+Bisnaguinha;Doce;Açúcar;25;g
+Bisnaguinha;Doce;Farinha de Trigo;0.25;kg
+Bisnaguinha;Doce;Leite;120;ml
+Bisnaguinha;Doce;Manteiga;30;g
+Ciabatta;Especial;Farinha de Trigo;0.32;kg
+Ciabatta;Especial;Fermento Biológico;15;g
+Ciabatta;Especial;Água;0.2;L
+Pão Doce;Doce;Açúcar;30;g
+Pão Doce;Doce;Farinha de Trigo;0.25;kg
+Pão Doce;Doce;Leite;100;ml
+Pão Doce;Doce;Manteiga;40;g
+Pão Francês;Tradicional;Farinha de Trigo;0.1;kg
+Pão Francês;Tradicional;Fermento Biológico;5;g
+Pão Francês;Tradicional;Sal;2;g
+Pão Francês;Tradicional;Água;0.06;L
+Pão Integral;Integral;Aveia;50;g
+Pão Integral;Integral;Farinha de Trigo;0.45;kg
+Pão Integral;Integral;Fermento Biológico;18;g
+Pão Integral;Integral;Água;0.25;L
+Pão Multigrãos;Especial;Farinha de Trigo;0.1;kg
+Pão Multigrãos;Especial;Gergelim;10;g
+Pão Multigrãos;Especial;Linhaça;10;g
+Pão de Aveia;Integral;Aveia;45;g
+Pão de Aveia;Integral;Farinha de Trigo;0.28;kg
+Pão de Aveia;Integral;Fermento Biológico;12;g
+Pão de Aveia;Integral;Água;0.16;L
+Pão de Forma;Tradicional;Farinha de Trigo;0.5;kg
+Pão de Forma;Tradicional;Fermento Biológico;15;g
+Pão de Forma;Tradicional;Sal;8;g
+Pão de Forma;Tradicional;Água;0.3;L
+Pão de Linhaça;Integral;Farinha de Trigo;0.2;kg
+Pão de Linhaça;Integral;Fermento Biológico;8;g
+Pão de Linhaça;Integral;Linhaça;20;g
+Pão de Linhaça;Integral;Água;0.12;L
+Pão de Milho;Especial;Farinha de Trigo;0.3;kg
+Pão de Milho;Especial;Fubá;80;g
+Pão de Milho;Especial;Água;0.17;L
+Rosca Doce;Doce;Açúcar;35;g
+Rosca Doce;Doce;Farinha de Trigo;0.35;kg
+Rosca Doce;Doce;Fermento Biológico;12;g
+Rosca Doce;Doce;Leite;150;ml

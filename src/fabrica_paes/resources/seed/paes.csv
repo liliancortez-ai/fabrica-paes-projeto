@@ -1,0 +1,13 @@
+id_pao,nome,preco,peso_gramas,id_categoria
+1,Baguete,7.90,250,1
+2,Pão Francês,1.14,50,1
+3,Pão de Forma,8.50,500,1
+4,Pão Doce,2.50,160,2
+5,Bisnaguinha,3.20,80,2
+6,Rosca Doce,7.50,356,2
+7,Pão Integral,6.80,450,3
+8,Pão de Aveia,5.70,280,3
+9,Pão de Linhaça,4.20,200,3
+10,Ciabatta,6.50,350,4
+11,Pão de Milho,2.90,300,4
+12,Pão Multigrãos,1.00,60,4
