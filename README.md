@@ -1,7 +1,6 @@
 # Fábrica de Pães — Engenharia da Informação
 
-**Dashboard online:**
-
+**Dashboard online:** [Acessar dashboard](https://liliancortez-ai.github.io/fabrica-paes-projeto/resultados/dashboard.html)
 [![Testes](https://img.shields.io/badge/testes-unittest-blue)](#testes)
 
 Projeto **executável e versionado** baseado no trabalho *Projeto Final — Modelagem
